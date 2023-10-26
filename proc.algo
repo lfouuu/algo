@@ -1,0 +1,32 @@
+PROCEDURE ProduitScalaire(o,p: ARRAY_OF INTEGER[],VAR F:BOOLEAN)
+VAR
+    sum: INTEGER := 0
+BEGIN
+    FOR I FROM 1 TO o.length DO 
+    sum:sum:= o[i]*p[i];
+END_FOR
+
+
+    IF (sum = 0) THEN
+    F := TRUE
+  
+        
+    ELSE 
+        F:= FALSE
+    END_IF
+   END
+
+
+    ALGORITHM AlgoPrincipal
+    VAR
+    v1: ARRAY_OF INTEGER[] :=[1,2];
+    v2: ARRAY_OF INTEGER[] :=[4,5];
+    resultat : BOOLEAN;
+    ProduitScalaire [v,1 v,2 resultat]
+        IF (resultat= TRUE THEN)
+         (WRITE) ("ekteb") 
+         ELSE
+         (WRITE) ("no ekteb")
+    BEGIN
+        
+    END
