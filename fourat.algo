@@ -1,0 +1,19 @@
+ALGORITHM checkpoint
+VAR
+    a : CHAR;
+    cc,cw,cv : INTEGER
+BEGIN
+    write ("donnez un charactère");
+    read ("a");
+
+    cc := cc + 1 ;
+
+    IF ("a" = " ")) THEN
+        cw := cw+ 1;
+    END_IF
+
+    IF ("a" = "A" OR "a" = "E" OR "a" = "O" OR "a" = "I" OR "a" = "U" OR "a" = "Y" OR "a" = "a" OR "a" = "e" OR "a" = "o" OR "a" = "i" OR "a" = "u" OR "a" = "y" ) THEN
+        cv := cv+1;
+    END_IF
+
+END
